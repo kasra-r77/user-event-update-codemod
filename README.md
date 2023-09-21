@@ -13,7 +13,7 @@ $ npm install @codemod/cli
 ## Usage
 
 ```bash
-npx codemod --plugin ./user-event-update-plugin path/to/your/file/or/directory
+$ npx codemod --plugin ./user-event-update-plugin path/to/your/file/or/directory
 ```
 
 This will update all instances of userEvent to async userEvent per their docs [here](https://github.com/testing-library/user-event/releases/tag/v14.0.0).
